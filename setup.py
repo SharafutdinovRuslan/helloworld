@@ -3,7 +3,7 @@ from os.path import join, dirname
 
 
 setup(
-    name='hello_world',
+    name='helloworld',
     version='1.0',
     packages=find_packages(),
     test_suite='tests',

@@ -1,5 +1,5 @@
 from unittest import TestCase
-from hello_world.core import get_message
+from helloworld.core import get_message
 
 
 class HelloworldTestCase(TestCase):
