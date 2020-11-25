@@ -1,11 +1,11 @@
-from setuptools import setup, find_packages
+from setuptools import setup
 from os.path import join, dirname
 
 
 setup(
-    name='helloworld',
+    name='test_package',
     version='1.0',
-    packages=find_packages(),
+    packages=['test_package'],
     test_suite='tests',
     long_description=open(join(dirname(__file__), 'README.txt')).read(),
 )
