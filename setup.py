@@ -6,13 +6,20 @@ from os.path import join, dirname
 
 setup(
     name='helloworld',
-    version='1.0',
+    author='Sharafutdinov Ruslan',
+    author_email='shar.rus72@gmail.com',
+    url='https://github.com/SharafutdinovRuslan/helloworld',
+    version='1.0.1',
     description='Setuptools example project',
-    long_description=open(join(dirname(__file__), 'README.txt')).read(),
-    packages=find_packages(where="test_package"),
+    long_description=open(join(dirname(__file__), 'README.md')).read(),
+    long_description_content_type='text/markdown',
+    packages=["test_package"],
     package_dir={'test_package': 'test_package'},
     include_package_data=True,
     zip_safe=False,
-    keywords='tapioca-mytarget',
     test_suite='tests',
+    python_requires=">=3.6",
+    classifiers=[
+            "Programming Language :: Python :: 3",
+        ],
 )
