@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*-
+
 from setuptools import setup, find_packages
 from os.path import join, dirname
 
@@ -11,5 +13,6 @@ setup(
     package_dir={'test_package': 'test_package'},
     include_package_data=True,
     zip_safe=False,
+    keywords='tapioca-mytarget',
     test_suite='tests',
 )
